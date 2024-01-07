@@ -16,14 +16,15 @@ body {
     margin: 0 auto;
     position: relative;
     border-radius: 16px;
-    background-blend-mode: multiply;
+
 }
 
+/* 
 .sec-1-container .b-ground {
     border-radius: 16px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-blend-mode: multiply;
-}
+} */
 
 .sec-1-container .item {
     width: 26%;
@@ -49,4 +50,51 @@ body {
     font-size: 32px;
     font-weight: 900;
     /* 131.944% */
+}
+
+.sec-2-container {
+    width: 82.5%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sec-2-container .item {
+    width: 46%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.sec-2-container .item .item-element {}
+
+.sec-2-container .item .item-element .offer {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sec-2-container .item .item-element .massage {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec-2-container .item .item-element .catagory {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sec-2-container .item .item-element .image {
+    width: 502.9px;
+    height: 300px;
 }
