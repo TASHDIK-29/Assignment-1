@@ -211,7 +211,7 @@ body {
     background: #F00;
     width: 100px;
     margin-left: 105px;
-    
+
 }
 
 
@@ -221,21 +221,81 @@ body {
     height: 400px;
     background-size: 100%;
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 40px;
+    gap: 80px;
 }
 
-.sec-5-container .sub-left{
-width: 40%;
-}
-
-.sec-5-container .sub-mid{
-    width: 40%; 
-}
-
-.sec-5-container .sub-right{
+.sec-5-container .sub-left {
     width: 40%;
 }
+
+
+.sec-5-container .sub-left .item h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+.sec-5-container .sub-left .item h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+
+.sec-5-container .sub-left .item p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 450;
+    /* 160% */
+}
+
+.sec-5-container .sub-mid {
+    width: 40%;
+}
+
+.sec-5-container .sub-right {
+    width: 40%;
+}
+
+.sec-5-container .sub-right .item h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sec-5-container .sub-right .item p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    /* 160% */
+}
+
+
+/* 
+.sec-5 {
+    position: relative;
+} */
+
+/*  
+.sec-5 .red-circle {
+    position: absolute;
+    border-radius: 1000px;
+    border: 100px solid #F00;
+}  */
+/* 
+.sec-5 .red-circle .white-circle {
+    position: absolute;
+    border-radius: 1000px;
+    border: 80px solid green;;
+}  */
