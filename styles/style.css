@@ -372,7 +372,7 @@ body {
 .sec-8-container {
     width: 82.5%;
     margin: 120px auto;
-    height: 600px;
+    height: 900px;
 }
 
 .sec-8-container .first-layer-imgs {
@@ -393,13 +393,11 @@ body {
     height: 350px;
 }
 
-.sec-8-container .text-item{
+.sec-8-container .text-item {
     width: 800px;
 }
 
-.sec-8-container .text-item .element{
-   
-}
+.sec-8-container .text-item .element {}
 
 .sec-8-container .text-item h5 {
     color: #F00;
@@ -430,3 +428,63 @@ body {
     /* 160% */
 }
 
+.sec-9-container {
+    width: 82.5%;
+    margin: 120px auto;
+    height: 600px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+
+.sec-9-container .item {
+    width: 60.5%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.sec-9-container .item .heading-item {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sec-9-container .item .description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    /* 160% */
+}
+
+.sec-9-container .item .sub-btn .sub{
+    width: 348px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    
+}
+
+
+.sec-9-container .item .sub-btn .btn{
+    width: 148px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 0 50px 50px 0;
+    background: #F00;
+    color: #FFF;
+    border: none;
+}
