@@ -98,3 +98,72 @@ body {
     width: 502.9px;
     height: 300px;
 }
+
+
+
+.sec-3-container{
+    width: 82.5%;
+    height: 600px;
+    background-image: url('../resources/Vectorrr.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-3-container .text-item{
+width: 52.8%;
+margin-left: 70px;
+}
+
+.sec-3-container .img-item img{
+   width: 23.24%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(78%,-64%);
+   /* background: #690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC; */
+   
+}
+
+.sec-3-container .text-item .elements{
+
+}
+
+
+.sec-3-container .text-item .elements .heading{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-top: 0px;
+}
+
+.sec-3-container .text-item .elements .description{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.sec-3-container .text-item .elements .btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+}
