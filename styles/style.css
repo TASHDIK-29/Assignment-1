@@ -10,13 +10,12 @@ body {
 .sec-1-container {
     width: 82.5%;
     height: 600px;
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 85%), url('../resources/Banner\ Image.png');
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
     position: relative;
     border-radius: 16px;
-
 }
 
 /* 
@@ -104,7 +103,7 @@ body {
 .sec-3-container {
     width: 82.5%;
     height: 600px;
-    background-image: url('../resources/Vectorrr.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 88%),url('../resources/Vectorrr.png');
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -467,7 +466,7 @@ body {
     /* 160% */
 }
 
-.sec-9-container .item .sub-btn .sub{
+.sec-9-container .item .sub-btn .sub {
     width: 348px;
     height: 52px;
     flex-shrink: 0;
@@ -475,11 +474,11 @@ body {
     background: #FFF;
     border: none;
     color: rgba(7, 2, 17, 0.30);
-    
+
 }
 
 
-.sec-9-container .item .sub-btn .btn{
+.sec-9-container .item .sub-btn .btn {
     width: 148px;
     height: 57px;
     flex-shrink: 0;
@@ -487,4 +486,92 @@ body {
     background: #F00;
     color: #FFF;
     border: none;
+}
+
+footer {
+    background: #070211;
+    height: 500px;
+}
+
+.footer-container {
+    width: 82.5%;
+    margin: 0 auto;
+    height: 350px;
+    position: relative;
+    top: 25%;
+}
+
+.footer-container .upper {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer-container .lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container .middle {
+    text-align: center;
+    height: 100px;
+   
+}
+
+
+.footer-container .middle img{
+    margin-right: 10px;
+    margin-top: 18px;
+}
+
+
+.footer-container .upper .left {
+    width: 25%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    /* 166.667% */
+}
+
+
+.footer-container .upper .right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    /* 166.667% */
+}
+
+.footer-container .upper .right .icon img{
+    width: 18px;
+}
+
+.footer-container .lower .left {
+    width: 25%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    /* 166.667% */
+}
+
+
+.footer-container .lower .right .btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    background: none;
+}
+
+.line{
+    background-color:black;
+}
+
+#link{
+    text-decoration: none;
+    color: #FFF;
 }
