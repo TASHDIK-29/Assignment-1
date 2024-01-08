@@ -169,7 +169,7 @@ body {
 }
 
 
-.sec-4-container .item .p-d-t .span-clr {
+.span-clr {
     color: #F00;
 }
 
@@ -299,3 +299,39 @@ body {
     border-radius: 1000px;
     border: 80px solid green;;
 }  */
+
+
+
+.sec-6-container {
+    width: 70%;
+    height: 300px;
+    background-size: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.sec-6-container .item h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sec-6-container .item h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.sec-6-container .item p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0;
+    /* 160% */
+}
