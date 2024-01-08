@@ -368,3 +368,65 @@ body {
 .sec-7-container .right-img img {
     width: 280px;
 }
+
+.sec-8-container {
+    width: 82.5%;
+    margin: 120px auto;
+    height: 600px;
+}
+
+.sec-8-container .first-layer-imgs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.sec-8-container .second-layer-imgs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.sec-8-container .img img {
+    width: 345px;
+    height: 350px;
+}
+
+.sec-8-container .text-item{
+    width: 800px;
+}
+
+.sec-8-container .text-item .element{
+   
+}
+
+.sec-8-container .text-item h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sec-8-container .text-item h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sec-8-container .text-item p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 160% */
+}
+
