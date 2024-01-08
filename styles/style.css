@@ -335,3 +335,36 @@ body {
     margin-top: 0;
     /* 160% */
 }
+
+
+.sec-7-container {
+    width: 82.5%;
+    margin: 0 auto;
+    height: 420px;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sec-7-container .left-img {
+    position: relative;
+    top: 60px;
+    left: 110px;
+}
+
+.sec-7-container .left-img img {
+    width: 350px;
+
+}
+
+.sec-7-container .right-img {
+    position: relative;
+    top: -52.9px;
+}
+
+.sec-7-container .right-img img {
+    width: 280px;
+}
