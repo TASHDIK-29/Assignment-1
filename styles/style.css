@@ -213,3 +213,29 @@ body {
     margin-left: 105px;
     
 }
+
+
+
+.sec-5-container {
+    width: 82.5%;
+    height: 400px;
+    background-size: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.sec-5-container .sub-left{
+width: 40%;
+}
+
+.sec-5-container .sub-mid{
+    width: 40%; 
+}
+
+.sec-5-container .sub-right{
+    width: 40%;
+}
